@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.columna{
+    position: relative;
+    display: block;
+    height: 100%;
+    background: #272727;
+    float:left;
+}
+
+.menu{
+    left: 0px;
+    width: 20%;
+}
+.content {
+    width: 80%;
+    clear:right;
+}
+
+.content > div {
+    height: 25%;
+}
+
+.content > div:nth-child(1){
+    background-color: aqua;
+}
+
+.content > div:nth-child(2){
+    background-color:blueviolet;
+}
+
+.content > div:nth-child(3){
+    background-color:chocolate;
+}
+
+.content > div:nth-child(4){
+    background-color: deeppink;
+}
